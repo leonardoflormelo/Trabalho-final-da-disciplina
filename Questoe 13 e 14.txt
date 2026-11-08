@@ -1,0 +1,7 @@
+Questão 13
+A função salvarCompra() pega as informações que o usuário digitou na tela, como o nome do produto, a quantidade e o preço. Depois, o programa verifica se esses dados estão corretos, para evitar que sejam salvas informações inválidas, como quantidade negativa ou preço incorreto.
+Após validar os dados, o programa multiplica a quantidade pelo preço para calcular o valor total da compra. Em seguida, utiliza fopen() para abrir o arquivo aval1234.txt no modo "a", que permite adicionar novas compras sem apagar as anteriores. A função fprintf() grava as informações no arquivo, separando cada dado por ponto e vírgula. Por último, fclose() fecha o arquivo e o programa mostra uma mensagem avisando que a compra foi cadastrada.
+
+Questão 14
+A função mostrarCompras() serve para mostrar na tela as compras que já foram salvas no arquivo. Primeiro, utiliza fopen() para abrir o arquivo no modo "r", que permite fazer a leitura dos dados.Depois, a função fgets() lê o arquivo linha por linha, enquanto a função sscanf() separa as informações de cada compra e coloca cada dado em sua variável correspondente. Em seguida, SendMessageA() adiciona as compras na lista que aparece na interface gráfica.
+Enquanto mostra os registros, o programa também soma o valor de cada compra usando acumulado += total e conta quantas compras existem usando contador++. Quando termina de ler o arquivo, utiliza fclose() para fechá-lo e mostra na tela o valor total de todas as compras e a quantidade de registros encontrados.

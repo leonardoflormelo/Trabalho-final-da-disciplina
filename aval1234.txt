@@ -1,0 +1,5 @@
+Abacate;2;12.50;25.00
+Alvejante;3;9.99;29.97
+Fone de ouvido;1;50.00;50.00
+Arro 5kg;1;22.37;22.37
+Saco de lixo;6;12.99;77.94
